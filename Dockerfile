@@ -28,7 +28,7 @@ EXPOSE $VIRTUAL_PORT
 WORKDIR /api
 
 COPY Gemfile* ./
-RUN RAILS_ENV=production bundle
+#RUN RAILS_ENV=production bundle
 
 COPY cron /etc/cron.d
 RUN cat /etc/cron.d/* | crontab -
