@@ -18,9 +18,3 @@ group :development do
   gem 'annotate', '~> 3.0.3'
   gem 'listen', '~> 3.2.1'
 end
-
-group :production_bundle do
-  gem 'annotate', '~> 3.0.3'
-  gem 'listen', '~> 3.2.1'
-end
-
